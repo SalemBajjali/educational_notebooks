@@ -19,7 +19,7 @@ bs4==0.0.1=pypi_0
 ca-certificates==2022.4.26=hecd8cb5_0
 canonicaljson==1.6.4=pypi_0
 certifi==2022.6.15=py39hecd8cb5_0
-cffi=1.15.1==py39h6c40b1e_3
+cffi==1.15.1=py39h6c40b1e_3
 charset-normalizer==2.1.1=pypi_0
 coloredlogs==15.0.1=pypi_0
 configparser==5.3.0=pypi_0
