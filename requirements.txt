@@ -95,8 +95,8 @@ ncurses==6.3=hca72f7f_3
 nest-asyncio==1.5.5=py39hecd8cb5_0
 notebook==6.5.2=py39hecd8cb5_0
 notebook-shim==0.2.2=py39hecd8cb5_0
-nspr=4.33==he9d5cce_0
-nss=3.74==h47edf6a_0
+nspr==4.33=he9d5cce_0
+nss==3.74=h47edf6a_0
 numpy==1.23.5=pypi_0
 openssl==1.1.1s=hca72f7f_0
 packaging==21.3=pyhd3eb1b0_0
