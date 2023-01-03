@@ -1,0 +1,6 @@
+name: vrsproject
+channels:
+  - defaults
+dependencies:
+  - python==3.9
+prefix: /infodev1/cim/Salem/miniconda3vrs/envs/vrsproject
