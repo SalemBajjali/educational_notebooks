@@ -3,5 +3,4 @@ channels:
   - defaults
 dependencies:
   - python==3.9
-  - ga4gh.vrs==0.6.3rc0
 prefix: /infodev1/cim/Salem/miniconda3vrs/envs/vrsproject
