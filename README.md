@@ -6,6 +6,7 @@ Getting started:
 NOTE: This link might take a few minutes to load.
 
 2) Once JupyterLabs loaded click on the terminal Icon. Inside of the terminal copy: pip install ga4gh.vrs[extras]
+
 NOTE: This should download the nessary packages needed. Currently working on how we can avoid this step. 
 
 3) Once the installations are done. You can go ahead and interact with the notebook!
