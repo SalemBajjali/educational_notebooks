@@ -42,7 +42,7 @@ importlib-resources==5.10.1
 inflection==0.5.1
 Inflector==3.0.1
 iniconfig==1.1.1
-ipykernel==6.19.4
+ipykernel==6.9.1
 ipython==8.7.0
 ipython-genutils==0.2.0
 isoduration==20.11.0
@@ -95,6 +95,7 @@ pyquery==2.0.0
 pyrsistent==0.19.2
 pysam==0.20.0
 pytest==7.2.0
+python >= 3.9
 python-dateutil==2.8.2
 python-json-logger==2.0.4
 python-jsonschema-objects==0.4.1
