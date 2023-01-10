@@ -14,4 +14,4 @@ NOTE: This link might take a few minutes to load.
 NOTE: This should download the nessary packages needed. Currently working on how we can avoid this step. 
 
 4) Once the installations are done. You can close out of ther terminal. 
-5) Click on the Educational Notebooks Examples file and start exploring. 
+5) Click on the Educational Notebooks Examples file and start exploring!
