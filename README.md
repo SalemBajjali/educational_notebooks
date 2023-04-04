@@ -15,3 +15,7 @@ NOTE: This should download the nessary packages needed. Currently working on how
 
 4) Once the installations are done. You can close out of ther terminal. 
 5) Click on the Educational Notebooks Examples file and start exploring!
+
+
+
+NEW: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SalemBajjali/educational_notebooks/dev_0.1)
