@@ -19,3 +19,4 @@ dependencies:
     - hgvs==1.5.4
 
 prefix: /Users/M278428/opt/anaconda3/envs/mybindertest
+
