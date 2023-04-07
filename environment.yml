@@ -17,6 +17,7 @@ dependencies:
     - ga4gh-gks-metaschema==0.2.0rc4
     - ga4gh-vrs==0.7.7
     - hgvs==1.5.4
+    - pandas==1.5.3
 
 prefix: /Users/M278428/opt/anaconda3/envs/mybindertest
 
