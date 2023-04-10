@@ -16,4 +16,4 @@ NOTE: This should download the nessary packages needed. Currently working on how
 
 
 
-NEW:[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SalemBajjali/educational_notebooks/dev_0.1)
+NEW:[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SalemBajjali/educational_notebooks/0.1)
