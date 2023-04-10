@@ -6,14 +6,4 @@ Instructions on how to use this interactive notebook!
 
 NOTE: This link might take a few minutes to load.
 
-2) Once JupyterLabs loaded, click on the terminal Icon. 
-3) Inside of the terminal copy: pip install ga4gh.vrs[extras]
-
-NOTE: This should download the nessary packages needed. Currently working on how we can avoid this step. 
-
-4) Once the installations are done. You can close out of ther terminal. 
-5) Click on the Educational Notebooks Examples file and start exploring!
-
-
-
 NEW:[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SalemBajjali/educational_notebooks/0.1)
