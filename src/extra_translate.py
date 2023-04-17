@@ -1,12 +1,9 @@
-#from ga4gh.vrs import __version__, models, normalize
 from ga4gh.core import ga4gh_digest, ga4gh_identify, ga4gh_serialize
 from ga4gh.vrs.dataproxy import SeqRepoRESTDataProxy
-#from biocommons.seqrepo import SeqRepo
 import json
 from ga4gh.vrs.extras.variation_normalizer_rest_dp import VariationNormalizerRESTDataProxy
-from variation_services_rest_db import VariationServicesRESTDataProxy
+from src.variation_services_rest_db import VariationServicesRESTDataProxy
 from ga4gh.vrs.extras.translator import Translator
-
 vnorm = VariationNormalizerRESTDataProxy()
 vs = VariationServicesRESTDataProxy()
 
