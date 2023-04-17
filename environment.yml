@@ -15,7 +15,7 @@ dependencies:
     - python-jsonschema-objects==0.4.1
     - pyyaml==6.0
     - ga4gh-gks-metaschema==0.2.0rc4
-    - ga4gh-vrs==0.7.8
+    - ga4gh-vrs==0.8.1
     - hgvs==1.5.4
     - pandas==1.5.3
 
