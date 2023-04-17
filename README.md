@@ -6,4 +6,4 @@ Instructions on how to use this interactive notebook!
 
 NOTE: This link might take a few minutes to load.
 
-NEW:[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SalemBajjali/educational_notebooks/0.1)
+0.1 link:[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SalemBajjali/educational_notebooks/0.1)
