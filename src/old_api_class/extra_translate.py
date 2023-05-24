@@ -2,7 +2,7 @@ from ga4gh.core import ga4gh_digest, ga4gh_identify, ga4gh_serialize
 from ga4gh.vrs.dataproxy import SeqRepoRESTDataProxy
 import json
 from ga4gh.vrs.extras.variation_normalizer_rest_dp import VariationNormalizerRESTDataProxy
-from src.variation_services_rest_db import VariationServicesRESTDataProxy
+from src.old_api_class.variation_services_rest_db import VariationServicesRESTDataProxy
 from ga4gh.vrs.extras.translator import Translator
 vnorm = VariationNormalizerRESTDataProxy()
 vs = VariationServicesRESTDataProxy()
@@ -33,7 +33,7 @@ class extra:
             return vs.spdi_to_hgvs(expression)
         except Exception as e: 
             # returns error produce by NCBI API 
-            return 'Error in expression {}, {}'.format(expression,e)
+            return 'Error in expression {}'.format(e)
 
     def to_fullynorm_hgvs(self,expression):
         """Converting SPDI allele expression into fully normalized HGVS expressions.
@@ -48,11 +48,11 @@ class extra:
         vrs_alleles = []
 
         try:
-            trans = self.tlr.translate_from(expression)
+            trans = self.tlr.translate_from(expression, 'spdi')
             vrs_alleles.append(trans)
         except Exception as e:
             # returns error produce by translate_from method
-            vrs_alleles.append('Error in expression {}, {}'.format(expression,e))
+            vrs_alleles.append('Error in expression {}'.format(e))
 
         for allele in vrs_alleles:
             if isinstance(allele, str):
@@ -79,7 +79,7 @@ class extra:
             vrs_alleles[ga4gh_identify(trans)] = trans.as_dict() #json.dumps(trans.as_dict())
         except Exception as e:
             # returns error produce by translate_from method
-            vrs_alleles["Error in expression"] = '{}, {}'.format(expression,e)
+            vrs_alleles["Error in expression"] = '{}'.format(e)
             
         return vrs_alleles
     
